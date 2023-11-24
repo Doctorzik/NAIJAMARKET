@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1020px) {
+  .navbtn {
+    display: none;
+  }
+
+  nav {
+    position: relative;
+  }
+  nav ul {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 35%;
+  }
+}
