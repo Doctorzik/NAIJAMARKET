@@ -46,3 +46,21 @@ export function addSum(num, num2){
        const  me = num + num2
         return me
       }
+
+    // wrapper. This function returns a matching element for a document
+export function qs(selector, parent = document){
+  return parent.querySelector(selector)
+} 
+
+// set a listerner for both touchend and click 
+export function setClick(selector, callback){
+
+  qs(selector).addEventListener("touchend",(event)=>{
+    event.preventDefault();
+    callback()
+
+  })
+
+  qs(selector).addEventListener("click", callback);
+
+}
