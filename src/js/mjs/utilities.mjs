@@ -18,7 +18,7 @@ export async function renderWithTemplate(
       callback(data);
     }
   }
-
+ 
 
 
 function loadTemplate(path){
@@ -63,4 +63,26 @@ export function setClick(selector, callback){
 
   qs(selector).addEventListener("click", callback);
 
+}
+ export async  function apiFetch(url) {
+  try {
+    const  response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      // this is for testing the call
+ 
+
+     return data
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+export function getlocalStorage(key){
+  return JSON.parse(localStorage.getItem(key))
+}
+export function setLocalStorage(key, data){
+  localStorage.setItem(key, data)
 }
