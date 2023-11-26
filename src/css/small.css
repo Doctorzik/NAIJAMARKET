@@ -119,6 +119,14 @@ a:hover {
   margin-top: 20px;
   margin-right: 10px;
 }
+
+/* Main css */
+#quote-div {
+  background: #417b5aff;
+  padding: 10px;
+  margin: 10% auto;
+  color: aliceblue;
+}
 /* Footer styles */
 footer {
   background: black;
