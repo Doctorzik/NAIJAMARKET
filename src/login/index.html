@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/small.css" />
+    <link rel="stylesheet" href="../css/medium.csss" />
+    <link rel="stylesheet" href="../css/large.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="../js/nav.js" type="module"></script>
+    <script src="../js/login.js" type="module"></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <label class="logo" aria-label="naija MARKET logo">9JAMARKET</label>
+
+        <button id="hamburgerbtn" class="navbtn">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul id="nav-ul">
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">VIDEOS</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT US</a></li>
+          <li><a href="/login/index.html">LOGIN</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="form-container">
+        <div class="form-box">
+          <h1 id="title">Sign Up</h1>
+          <form method="" id="myForm">
+            <div class="input-group">
+              <div class="input-field" id="nameField">
+                <i class="fa-solid fa-user"></i>
+                <input name="fullname" type="text" placeholder="Name" />
+              </div>
+              <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input name="email" type="email" placeholder="Email" />
+              </div>
+              <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" />
+              </div>
+              <p>Lost password <a href="#">Click Here</a></p>
+            </div>
+
+            <div class="btn-field">
+              <button type="button" id="signUpBtn" class="disable">
+                Sign Up
+              </button>
+              <button type="button" id="signInBtn">Sign In</button>
+            </div>
+            <input type="submit" class="loginBtn" id="login" value="Login" />
+            <input
+              type="submit"
+              class="registerBtn"
+              id="register"
+              value="Register"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-newsletter"></div>
+      <div class="logo">9JAMARKET</div>
+      <div class="categories"></div>
+      <div class="contact-us">
+        <p>Contact Us</p>
+        <div>
+          <ul>
+            <li>
+              <a href=""
+                ><img src="../images/social/instagram.png" width="20px"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="../images/social/whatsapp.png" width="20px"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="../images/social/youtube.png" width="20px"
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="../images/social/twitter.png" width="20px"
+              /></a>
+            </li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="terms"><a href="">Terms & Condition</a></span>
+      <span class="privacy"><a href="">Privacy & Policy</a></span>
+
+      <p>Copyright @ <span>2023</span> - <span id="year"></span></p>
+    </footer>
+  </body>
+</html>

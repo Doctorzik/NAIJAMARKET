@@ -1,0 +1,105 @@
+{
+  "directories": [
+    {
+      "name": "Ayalla Hotels",
+      "phone": "+234 (81) 3333-9034",
+      "address": "Isaac Boro Expressway, Kpansia,Yenagoa, Bayelsa State.",
+      "website": "https://www.ayallahotels.com/",
+      "established": "2007",
+      "email": "ayallahotels@yahoo.com",
+      "image": "https://z-m-scontent.fphc2-2.fna.fbcdn.net/v/t39.30808-6/295384567_587260339496275_172765130516298675_n.png?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=85a577&efg=eyJpIjoibyJ9&_nc_eui2=AeEDcKdUTrJjha0RBDwLXISt6MBI15aRZIrowEjXlpFkiqTBgYV0TVgvO-ECUqorIm7RLeTuedUh6eqhP-01mpVn&_nc_ohc=Krt2nJSA_ckAX99SoTV&_nc_oc=AQmcw2JJLQSl1-FIzNKAsFW3Be-DzSpXPE9g3ORwZPwDgYMrEAVUXP2Co-ktnPcUPLw&_nc_ad=z-m&_nc_cid=1361&_nc_eh=e1a395e42e4217c6d49ed9d925853bbc&_nc_zt=23&_nc_rml=0&_nc_ht=z-m-scontent.fphc2-2.fna&oh=00_AfDnifOO2TTcWGBYHNXy1hEthnVYtaQGImdeUpv55WbU4A&oe=6491BC26",
+      "mlevel": "Gold",
+      "rating": "5"
+    },
+
+    {
+      "name": "Tobis Clinic $ Consultants",
+      "phone": "+234 (70) 6308-1216",
+      "address": "Akenfa-Epie, Melford Okilo Road, 569101, Yenagoa, Bayelsa",
+      "website": "No official Website",
+      "established": "2003",
+      "email": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikuXE88FF7Kzhv2JfAMn84bEKaRsk1-9Ce1Qfya9TwA&s",
+      "mlevel": "Bronze",
+      "rating": "2.5"
+    },
+    {
+      "name": "Belary Schools",
+      "phone": "+234 (0) 806 877 6811",
+      "address": "church of Christ, Edepie11 Tinacious Street, Edepie 569101, Yenagoa, Bayelsa",
+      "website": "https://www.belaryschools.com/",
+      "established": "17th September 2007",
+      "email": "info@belaryschools.com",
+      "image": "https://www.belaryschools.com/assets/images/belary-school-logo-134x202.png",
+      "mlevel": "Gold",
+      "rating": "5"
+    },
+
+    {
+      "name": "Aridolf Resort Wellness & Spa - Yenagoa",
+      "phone": "+234 (90) 9068-8993",
+      "address": "Okaka Estate, Along Isaac Boro, Expressway, 569101, Yenagoa, Bayelsa",
+      "website": "No official Website",
+      "established": "@015",
+      "email": "No official Mail",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddgzGL1X6xRVQkHQ1sD-n7LKKGzCaKXEdYtoI3vO8&s",
+      "mlevel": "Silver",
+      "rating": "3.7"
+    },
+    {
+      "name": "NIGER DELTA UNIVERSITY TEACHING HOSPITAL",
+      "phone": "+234-388448800",
+      "address": "NDUTH -Okolobiri, Bayelsa State",
+      "website": "https://nduth.org.ng/",
+      "established": "2007",
+      "email": "N/A",
+      "image": "https://nduth.org.ng/wp-content/uploads/2021/12/logo-03.png",
+      "mlevel": "Gold",
+      "rating": "4"
+    },
+    {
+      "name": "Megastar Technical & Construction Company Ltd",
+      "phone": "+234 (80) 7209-0151",
+      "address": "100 Imiringi Road, Yenagoa, Bayelsa Nigeria",
+      "website": "https://megastarng.com/",
+      "established": "1988",
+      "email": "info@megastarnig.com",
+      "image": "https://megastarng.com/wp-content/uploads/2019/09/megastar-web-logo.png",
+      "mlevel": "Silver",
+      "rating": "3"
+    },
+    {
+      "name": "Bayelsa State Investment Promotion Agency",
+      "phone": "0-7000-CALL-BIPA",
+      "address": "State Secretariat Complex,BIPA Wing, Annex VI, Yenagoa,Bayelsa State, Nigeria",
+      "website": "https://investbayelsa.by.gov.ng/bipa/",
+      "established": "2012",
+      "email": "info@investbayelsa.by.gov.ng",
+      "image": "https://investbayelsa.by.gov.ng/wp-content/uploads/2020/09/logo-dark-bipa.png",
+      "mlevel": "Gold",
+      "rating": "5"
+    },
+    {
+      "name": "JERRY CENTURY PLACE",
+      "phone": "+234 (80) 6036-3529",
+      "address": "Yenagoa gardens, by Bayelsa Palm, Sani Abacha road . Yenagoa Bayelsa State.",
+      "website": "https://yenagoaeventcentres.webs.com/",
+      "established": "2016",
+      "email": "mosesoyins@gmail.com",
+      "image": "https://mediaprocessor.websimages.com/fit/1920x1920/yenagoaeventcentres.webs.com/60.jpg",
+      "mlevel": "Silver",
+      "rating": "2"
+    },
+    {
+      "name": "Bayelsa State Medical University",
+      "phone": "+234 (80) 2088-0183",
+      "address": "Bayelsa Medical University,PMB 178, Onopa,Yenagoa, Nigeria.",
+      "website": "https://www.bmu.edu.ng/",
+      "established": "2020",
+      "email": "info@bmu.edu.ng",
+      "image": "https://www.bmu.edu.ng/images/bmuweblogo.png",
+      "mlevel": "Gold",
+      "rating": "3"
+    }
+  ]
+}
