@@ -1,12 +1,4 @@
-import { doc } from "prettier";
-import {
-  apiFetch,
-  setLocalStorage,
-  getlocalStorage,
-  qs,
-  loadHeaderFooter,
-  setClick,
-} from "./mjs/utilities.mjs";
+import { apiFetch, qs } from "./mjs/utilities.mjs";
 
 const url = "https://dummyjson.com/quotes?skip&limit=100";
 const news =
@@ -21,15 +13,13 @@ async function fetchQoutes() {
 
   const randomQoute = data.quotes[randomIndex].quote;
   const author = data.quotes[randomIndex].author;
-  console.log(randomQoute);
-  console.log(author);
-  const me = document.createElement("div");
+
   const quotele = (document.createComment("quote").innerHtml = randomQoute);
   const p = (document.createComment("p").innerHtml = author);
   qs("#quote-div").append(quotele, p);
 }
 async function fetchnews() {
   const newsresult = await apiFetch(news);
-  console.log(newsresult.articles[0].content);
+
   qs("#news").textContent = newsresult.articles[0].content;
 }
