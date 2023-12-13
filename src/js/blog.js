@@ -2,6 +2,8 @@ import { setClick, qs,apiFetch} from "./mjs/utilities.mjs";
 
 const news =
   "https://newsapi.org/v2/top-headlines?country=us&apiKey=678408a4a7694b959f758ca67a715a54";
+  
+  fetchNews()
 
   async function fetchNews(){
     const data = await apiFetch(news)
@@ -41,4 +43,3 @@ const news =
    });
   }
 
-  fetchNews()

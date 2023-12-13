@@ -20,7 +20,7 @@
     padding: 7px 10px;
   }
 /* news css */
-  .news {border: 2px solid black;
+  .news {
     display: flex;
     flex-wrap:  wrap;
   margin: 10px auto;

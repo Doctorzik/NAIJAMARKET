@@ -350,8 +350,7 @@ footer a {
 
 /* Blog page Css */
 .newsheader {text-align: center;}
-.news {border: 2px solid black;
-}
-.news section {border: 2px solid #bbb;
+
+.news section {
 max-width: 400px;
 padding: 10px;}
