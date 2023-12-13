@@ -1,4 +1,4 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
 :root {
   --font-body: Arial, Helvetica, sans-serif;
   --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -64,6 +64,8 @@ html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
+body {max-width: 900px;
+margin: 0 auto}
 
 nav {
   background: #525b0f;
