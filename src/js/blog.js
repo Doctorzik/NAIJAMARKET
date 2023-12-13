@@ -1,7 +1,7 @@
 import { setClick, qs,apiFetch} from "./mjs/utilities.mjs";
 
 const news =
-  "https://newsdata.io/api/1/news?apikey=pub_34716acd800ce1ab9f35122138bcfc23e5ee4&country=ng,us";
+  "https://newsdata.io/api/1/news?apikey=pub_34716acd800ce1ab9f35122138bcfc23e5ee4&country=ng";
   
   fetchNews()
 
