@@ -7,7 +7,7 @@ const news =
 
   async function fetchNews(){
     const data = await apiFetch(news)
-   console.log(data.results)
+
    let cards =  qs(".news")
  
    data.results.forEach(headline => {

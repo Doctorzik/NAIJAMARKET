@@ -1,5 +1,8 @@
 import { apiFetch, qs, setClick } from "./mjs/utilities.mjs";
-
+document.addEventListener('DOMContentLoaded', function() {
+  // Add the 'loaded' class to trigger the animation
+  qs('.animate-heading').classList.add('loaded');
+});
 const url = "https://dummyjson.com/quotes?skip&limit=100";
 
 fetchQoutes();
@@ -52,3 +55,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
