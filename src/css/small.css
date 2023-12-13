@@ -131,16 +131,21 @@ a:hover {
   margin: 10% auto;
   color: aliceblue;
 }
-.welcome-banner {
-  /* background-color: #FFD700; Gold background color */
-  color: inherit; /* Dark text color */
-  padding: 15px;
+/* welcome banner */
+.animate-heading {
+  position: relative;
+  top: 10%;
+  left: -100%; /* Move the heading off-screen initially */
+  width: 100%;
   text-align: center;
-  margin: 10px 10px auto;
+  transition: left 2s ease-in-out ; /* Transition the 'left' property over 1 second with ease-in-out timing function */
 }
 
-.welcome-banner p {
-  margin: 10px 0;
+.animate-heading h1 {
+  color: #008000; /* Green color for the heading */
+}
+.animate-heading.loaded {
+  left: 0;
 }
 
 /* FORM */
@@ -237,23 +242,8 @@ form p a {
 .registerBtn {
   display: block;
 }
-/* .img-banner img {object-fit: cover;
-  max-width: 100%; /* Set the maximum width to 100% of the container */
-/* max-height: 100%; /* Set the maximum height to 100% of the container */
-/* display: block; /* Remove any default spacing below the image */
-/* margin: auto; */
-/* } */
-*/ */ */ div .container {
-  display: none;
-}
 
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
 /* Footer styles */
 footer {
   background: black;
@@ -354,3 +344,6 @@ footer a {
 .news section {
 max-width: 400px;
 padding: 10px;}
+
+
+
