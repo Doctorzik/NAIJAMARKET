@@ -347,3 +347,11 @@ footer a {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Blog page Css */
+.newsheader {text-align: center;}
+.news {border: 2px solid black;
+}
+.news section {border: 2px solid #bbb;
+max-width: 400px;
+padding: 10px;}
