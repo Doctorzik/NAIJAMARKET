@@ -7,7 +7,7 @@ const news =
 
   async function fetchNews(){
     const data = await apiFetch(news)
-   
+   console.log(data.results)
    let cards =  qs(".news")
  
    data.results.forEach(headline => {
@@ -29,7 +29,7 @@ const news =
     title.textContent = headline.title;
     // description.textContent = `${headline.description}`;
     source.textContent = `Source: ${headline.creator}`;
-    sourcesite.innerHTML = `<a href="headline.link" target="_blank">Read More</a>`;
+    sourcesite.innerHTML = `<a href="${headline.link}" target="_blank">Read More</a>`;
   
     card.append(
       portrait,
