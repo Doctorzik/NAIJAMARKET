@@ -147,7 +147,10 @@ a:hover {
 .animate-heading.loaded {
   left: 0;
 }
-
+.video {
+  max-width: 400px;
+  margin: 10px auto;
+}
 /* FORM */
 .form-container {
   width: 100%;
